@@ -1,0 +1,783 @@
+<!--Welcome to Jake's (Sirtopeia's) Version of the SSF2 Dojo! You are a nasty code snooper! You could consider this an "easter egg", but I've hidden better ones.-->
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+		<title>
+			SSF2 Version 0.9b Trailer  |   Smash Flash 2 DOJO!!					</title>
+		<meta name="viewport" content="width=760px">
+		<link href="http://ssfdojo.mcleodgaming.com/favicon.ico" rel="shortcut icon">
+		<link href="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/style.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:500,400,300,900' rel='stylesheet' type='text/css'>
+		<link href="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/css/font-awesome.min.css" rel="stylesheet">
+		<!--[if lte IE 7]>
+	  		<link rel="stylesheet" href="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/css/font-awesome-ie7.min.css">
+		<![endif]-->
+
+		<script src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+		
+		<script src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/js/jquery.transit.min.js" type="text/javascript"></script>
+		
+		<script>
+			//Some new browsers don't support the cool transitions. This falls back to the old ones.
+			if (!$.support.transition){
+ 				$.fn.transition = $.fn.animate;
+			}
+		</script>
+
+		<style>.header{background:transparent url(http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-notices.png) no-repeat top center;}</style>		<script>
+
+			
+			function imagePreload(){
+				var preload = [
+					'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-home.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-characters.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-game-modes.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-how-to-play.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-items.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-music.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-notices.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-stages.png'
+
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/uncategorized.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/characters.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/game-modes.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/how-to-play.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/items.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/music.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/notices.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/stages.png'
+					
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/uncategorized-lit.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/characters-lit.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/game-modes-lit.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/how-to-play-lit.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/items-lit.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/music-lit.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/notices-lit.png'
+					,'http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/stages-lit.png'
+
+
+				];
+				var images = [];
+				for (i = 0; i < preload.length; i++) {
+					//console.log('Preloading'+i)
+				    images[i] = new Image();
+				    images[i].src = preload[i];
+				}
+			}
+			imagePreload();
+
+		</script>
+		<noscript>
+			<style>
+				.content-wrap{
+					margin-top:0px;
+					opacity:1;
+					filter:alpha(opacity=100);
+				}
+				.post-row{
+					margin-top:0px;
+					opacity:1;
+					filter:alpha(opacity=100);
+				}
+				.post-mini{
+					margin-top:0px;
+					opacity:1;
+					filter:alpha(opacity=100);
+				}
+			</style>
+		</noscript>
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/ssfdojo.mcleodgaming.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.1"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='jetpack_css-css'  href='http://ssfdojo.mcleodgaming.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='http://ssfdojo.mcleodgaming.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ssfdojo.mcleodgaming.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ssfdojo.mcleodgaming.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='???' href='http://ssfdojo.mcleodgaming.com/notices/5071' />
+<link rel='next' title='DOJO!! Back Online' href='http://ssfdojo.mcleodgaming.com/notices/dojo-back-online' />
+<meta name="generator" content="WordPress 4.4.1" />
+<link rel="canonical" href="http://ssfdojo.mcleodgaming.com/notices/ssf2-version-0-9b-trailer" />
+<link rel='shortlink' href='http://ssfdojo.mcleodgaming.com/?p=5097' />
+<link rel="alternate" type="application/json+oembed" href="http://ssfdojo.mcleodgaming.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fssfdojo.mcleodgaming.com%2Fnotices%2Fssf2-version-0-9b-trailer" />
+<link rel="alternate" type="text/xml+oembed" href="http://ssfdojo.mcleodgaming.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fssfdojo.mcleodgaming.com%2Fnotices%2Fssf2-version-0-9b-trailer&#038;format=xml" />
+	</head>
+	<body onunload="">
+		<!--<big style="color:red; position:absolute;">Sir is currently working on the Dojo! You may see errors, however, they are unlikely!</big>-->
+		<center>
+
+		<a href="http://ssfdojo.mcleodgaming.com"/>
+		<div class="header" id="header"></div>
+		<div class="header2" id="header2"></div>
+		</a>
+		<div class="wrap">
+				<form onsubmit="return false;" style="float:left; position:relative; top:50px; left:530px; z-index:2000;">
+					<input style="font-size:20px; background-color:rgba(0,0,0,0.5); border:1px solid black; color:white; width:200px;" type="text" name="s" placeholder="Search" id="quickSearch" value=""/>
+				</form>
+				<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+				<script>
+				$( "#quickSearch" ).autocomplete({
+					minLength: 2,
+					source:function(request, response) {
+						$.getJSON('http://ssfdojo.mcleodgaming.com/', { s: request.term }, response);
+					},
+					focus: function(event, ui){
+						return false;
+					},
+					select: function(event, ui){
+						searchRun(ui.item.value);
+						return false;
+					},
+					search: function(event, ui){
+						$("#quickSearchIcon").removeClass('hidden');
+						$("#quickSearch").css('background','rgba(0,0,0,0.5) url(/wp-content/themes/DojoTheme3.0/images/ajax-loader.gif) right no-repeat');
+					},
+					response: function(event, ui){
+						$("#quickSearchIcon").addClass('hidden')
+						$("#quickSearch").css('background','rgba(0,0,0,0.5)')
+					}
+				})
+				</script>
+				<div class="sidebar-bg" id="sidebar">
+	<div class="sidebar">
+		<div class="categories-title">
+			&nbsp;CATEGORIES
+		</div>
+		<div class="categories">
+			
+							<a href="http://ssfdojo.mcleodgaming.com/characters">
+							<div class="vectorCategoryBox " id="categoryButton-characters" nicename="characters">
+								<div class="vectorCategoryColor" style="background:#ea3131;"></div>
+
+								<div class="vectorCategoryIcon" id="categoryIconWrap-characters">
+									<img id="categoryIcon-characters" src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/characters.png"/>
+									<!--<span class="icon-stack">
+									  <i class="icon-circle icon-stack-base" id="categoryIconBG-characters"></i>
+									  <i class="icon-user" id="categoryIcon-characters"></i>
+									</span>-->
+								</div>
+								<div class="vectorCategoryText"  id="categoryText-characters">Characters&nbsp;</div>
+							</div>
+							</a>
+						
+							<script>
+								if(!$('#categoryButton-characters').hasClass('activeMenu')){
+
+									$('#categoryButton-characters').bind('mouseenter',function(){
+										categoryMenuOut('characters','#ea3131');
+									});
+									$('#categoryButton-characters').bind('mouseleave',function(){
+										categoryMenuIn('characters');
+									});
+								
+									if(!(document.cookie.indexOf('SSFDOJO - MagicMenuBouceSeen=true')>=0)){
+										window.setTimeout((function(){categoryMenuOut('characters','#ea3131');}),(50*1)+1000);
+										window.setTimeout((function(){categoryMenuIn('characters');}),(50*1)+1200);
+									}
+								}
+							</script>
+						
+							<a href="http://ssfdojo.mcleodgaming.com/how-to-play">
+							<div class="vectorCategoryBox " id="categoryButton-how-to-play" nicename="how-to-play">
+								<div class="vectorCategoryColor" style="background:#467bf1;"></div>
+
+								<div class="vectorCategoryIcon" id="categoryIconWrap-how-to-play">
+									<img id="categoryIcon-how-to-play" src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/how-to-play.png"/>
+									<!--<span class="icon-stack">
+									  <i class="icon-circle icon-stack-base" id="categoryIconBG-how-to-play"></i>
+									  <i class="icon-question-sign" id="categoryIcon-how-to-play"></i>
+									</span>-->
+								</div>
+								<div class="vectorCategoryText"  id="categoryText-how-to-play">How to Play&nbsp;</div>
+							</div>
+							</a>
+						
+							<script>
+								if(!$('#categoryButton-how-to-play').hasClass('activeMenu')){
+
+									$('#categoryButton-how-to-play').bind('mouseenter',function(){
+										categoryMenuOut('how-to-play','#467bf1');
+									});
+									$('#categoryButton-how-to-play').bind('mouseleave',function(){
+										categoryMenuIn('how-to-play');
+									});
+								
+									if(!(document.cookie.indexOf('SSFDOJO - MagicMenuBouceSeen=true')>=0)){
+										window.setTimeout((function(){categoryMenuOut('how-to-play','#467bf1');}),(50*2)+1000);
+										window.setTimeout((function(){categoryMenuIn('how-to-play');}),(50*2)+1200);
+									}
+								}
+							</script>
+						
+							<a href="http://ssfdojo.mcleodgaming.com/game-modes">
+							<div class="vectorCategoryBox " id="categoryButton-game-modes" nicename="game-modes">
+								<div class="vectorCategoryColor" style="background:#ff9d0f;"></div>
+
+								<div class="vectorCategoryIcon" id="categoryIconWrap-game-modes">
+									<img id="categoryIcon-game-modes" src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/game-modes.png"/>
+									<!--<span class="icon-stack">
+									  <i class="icon-circle icon-stack-base" id="categoryIconBG-game-modes"></i>
+									  <i class="icon-gamepad" id="categoryIcon-game-modes"></i>
+									</span>-->
+								</div>
+								<div class="vectorCategoryText"  id="categoryText-game-modes">Game Modes&nbsp;</div>
+							</div>
+							</a>
+						
+							<script>
+								if(!$('#categoryButton-game-modes').hasClass('activeMenu')){
+
+									$('#categoryButton-game-modes').bind('mouseenter',function(){
+										categoryMenuOut('game-modes','#ff9d0f');
+									});
+									$('#categoryButton-game-modes').bind('mouseleave',function(){
+										categoryMenuIn('game-modes');
+									});
+								
+									if(!(document.cookie.indexOf('SSFDOJO - MagicMenuBouceSeen=true')>=0)){
+										window.setTimeout((function(){categoryMenuOut('game-modes','#ff9d0f');}),(50*3)+1000);
+										window.setTimeout((function(){categoryMenuIn('game-modes');}),(50*3)+1200);
+									}
+								}
+							</script>
+						
+							<a href="http://ssfdojo.mcleodgaming.com/stages">
+							<div class="vectorCategoryBox " id="categoryButton-stages" nicename="stages">
+								<div class="vectorCategoryColor" style="background:#329120;"></div>
+
+								<div class="vectorCategoryIcon" id="categoryIconWrap-stages">
+									<img id="categoryIcon-stages" src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/stages.png"/>
+									<!--<span class="icon-stack">
+									  <i class="icon-circle icon-stack-base" id="categoryIconBG-stages"></i>
+									  <i class="icon-globe" id="categoryIcon-stages"></i>
+									</span>-->
+								</div>
+								<div class="vectorCategoryText"  id="categoryText-stages">Stages&nbsp;</div>
+							</div>
+							</a>
+						
+							<script>
+								if(!$('#categoryButton-stages').hasClass('activeMenu')){
+
+									$('#categoryButton-stages').bind('mouseenter',function(){
+										categoryMenuOut('stages','#329120');
+									});
+									$('#categoryButton-stages').bind('mouseleave',function(){
+										categoryMenuIn('stages');
+									});
+								
+									if(!(document.cookie.indexOf('SSFDOJO - MagicMenuBouceSeen=true')>=0)){
+										window.setTimeout((function(){categoryMenuOut('stages','#329120');}),(50*4)+1000);
+										window.setTimeout((function(){categoryMenuIn('stages');}),(50*4)+1200);
+									}
+								}
+							</script>
+						
+							<a href="http://ssfdojo.mcleodgaming.com/items">
+							<div class="vectorCategoryBox " id="categoryButton-items" nicename="items">
+								<div class="vectorCategoryColor" style="background:#dabd12;"></div>
+
+								<div class="vectorCategoryIcon" id="categoryIconWrap-items">
+									<img id="categoryIcon-items" src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/items.png"/>
+									<!--<span class="icon-stack">
+									  <i class="icon-circle icon-stack-base" id="categoryIconBG-items"></i>
+									  <i class="icon-umbrella" id="categoryIcon-items"></i>
+									</span>-->
+								</div>
+								<div class="vectorCategoryText"  id="categoryText-items">Items&nbsp;</div>
+							</div>
+							</a>
+						
+							<script>
+								if(!$('#categoryButton-items').hasClass('activeMenu')){
+
+									$('#categoryButton-items').bind('mouseenter',function(){
+										categoryMenuOut('items','#dabd12');
+									});
+									$('#categoryButton-items').bind('mouseleave',function(){
+										categoryMenuIn('items');
+									});
+								
+									if(!(document.cookie.indexOf('SSFDOJO - MagicMenuBouceSeen=true')>=0)){
+										window.setTimeout((function(){categoryMenuOut('items','#dabd12');}),(50*5)+1000);
+										window.setTimeout((function(){categoryMenuIn('items');}),(50*5)+1200);
+									}
+								}
+							</script>
+						
+							<a href="http://ssfdojo.mcleodgaming.com/music">
+							<div class="vectorCategoryBox " id="categoryButton-music" nicename="music">
+								<div class="vectorCategoryColor" style="background:#6544db;"></div>
+
+								<div class="vectorCategoryIcon" id="categoryIconWrap-music">
+									<img id="categoryIcon-music" src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/music.png"/>
+									<!--<span class="icon-stack">
+									  <i class="icon-circle icon-stack-base" id="categoryIconBG-music"></i>
+									  <i class="icon-music" id="categoryIcon-music"></i>
+									</span>-->
+								</div>
+								<div class="vectorCategoryText"  id="categoryText-music">Music&nbsp;</div>
+							</div>
+							</a>
+						
+							<script>
+								if(!$('#categoryButton-music').hasClass('activeMenu')){
+
+									$('#categoryButton-music').bind('mouseenter',function(){
+										categoryMenuOut('music','#6544db');
+									});
+									$('#categoryButton-music').bind('mouseleave',function(){
+										categoryMenuIn('music');
+									});
+								
+									if(!(document.cookie.indexOf('SSFDOJO - MagicMenuBouceSeen=true')>=0)){
+										window.setTimeout((function(){categoryMenuOut('music','#6544db');}),(50*6)+1000);
+										window.setTimeout((function(){categoryMenuIn('music');}),(50*6)+1200);
+									}
+								}
+							</script>
+						
+							<a href="http://ssfdojo.mcleodgaming.com/notices">
+							<div class="vectorCategoryBox activeMenu" id="categoryButton-notices" nicename="notices">
+								<div class="vectorCategoryColor" style="background:#49c1e0;"></div>
+
+								<div class="vectorCategoryIcon" id="categoryIconWrap-notices">
+									<img id="categoryIcon-notices" src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/notices.png"/>
+									<!--<span class="icon-stack">
+									  <i class="icon-circle icon-stack-base" id="categoryIconBG-notices"></i>
+									  <i class="icon-warning-sign" id="categoryIcon-notices"></i>
+									</span>-->
+								</div>
+								<div class="vectorCategoryText"  id="categoryText-notices">Notices&nbsp;</div>
+							</div>
+							</a>
+						
+							<script>
+								if(!$('#categoryButton-notices').hasClass('activeMenu')){
+
+									$('#categoryButton-notices').bind('mouseenter',function(){
+										categoryMenuOut('notices','#49c1e0');
+									});
+									$('#categoryButton-notices').bind('mouseleave',function(){
+										categoryMenuIn('notices');
+									});
+								
+									if(!(document.cookie.indexOf('SSFDOJO - MagicMenuBouceSeen=true')>=0)){
+										window.setTimeout((function(){categoryMenuOut('notices','#49c1e0');}),(50*7)+1000);
+										window.setTimeout((function(){categoryMenuIn('notices');}),(50*7)+1200);
+									}
+								}
+							</script>
+									<div class="categories-title">
+			&nbsp;OTHER LINKS
+			</div>
+			<a href="/feed" target="_blank">
+				<div class="vectorCategoryBox" id="categoryButton-rss" nicename="rss">
+					<div class="vectorCategoryColor" style="background:#fe9901;"></div>
+
+					<div class="vectorCategoryIcon" id="categoryIconWrap-rss">
+						<img id="categoryIcon-rss" src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/rss.png"/>
+					</div>
+					<div class="vectorCategoryText"  id="categoryText-rss">RSS Feed&nbsp;</div>
+				</div>
+			</a>
+			<a href="http://www.mcleodgaming.com/games.php" target="_blank">
+				<div class="vectorCategoryBox" id="categoryButton-playSSF2" nicename="playSSF2">
+					<div class="vectorCategoryColor" style="background:#576277;"></div>
+
+					<div class="vectorCategoryIcon" id="categoryIconWrap-playSSF2">
+						<img id="categoryIcon-playSSF2" src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/playSSF2.png"/>
+					</div>
+					<div class="vectorCategoryText"  id="categoryText-playSSF2">Play SSF2&nbsp;</div>
+				</div>
+			</a>
+			<script>
+								$('#categoryButton-rss').bind('mouseenter',function(){
+					categoryMenuOut('rss','#fe9901');
+				});
+				$('#categoryButton-rss').bind('mouseleave',function(){
+					categoryMenuIn('rss');
+				});
+			
+				if(!(document.cookie.indexOf('SSFDOJO - MagicMenuBouceSeen=true')>=0)){
+					window.setTimeout((function(){categoryMenuOut('rss','#fe9901');}),(50*7)+1000);
+					window.setTimeout((function(){categoryMenuIn('rss');}),(50*7)+1200);
+				}
+
+				
+				$('#categoryButton-playSSF2').bind('mouseenter',function(){
+					categoryMenuOut('playSSF2','#576277');
+				});
+				$('#categoryButton-playSSF2').bind('mouseleave',function(){
+					categoryMenuIn('playSSF2');
+				});
+			
+				if(!(document.cookie.indexOf('SSFDOJO - MagicMenuBouceSeen=true')>=0)){
+					window.setTimeout((function(){categoryMenuOut('playSSF2','#576277');}),(50*7)+1000);
+					window.setTimeout((function(){categoryMenuIn('playSSF2');}),(50*7)+1200);
+				}
+
+
+				document.cookie = 'SSFDOJO - MagicMenuBouceSeen=true';
+
+				function categoryMenuOut(menu,menuColor){
+					$('#categoryIconWrap-'+menu).stop().animate({'margin-left':'13px'},{duration:100,easing:'linear'});
+					$('#categoryIcon-'+menu).attr('src','http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/'+menu+'-lit.png');
+					//$('#categoryText-'+menu).stop().css({'text-decoration':'underline'});
+				}
+				function categoryMenuIn(menu){
+					if(!$('#categoryButton-'+menu).hasClass('clicked')){
+						$('#categoryIconWrap-'+menu).stop().animate({'margin-left':'5px'},{duration:100,easing:'linear'});
+						$('#categoryIcon-'+menu).attr('src','http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/'+menu+'.png');
+						$('#categoryText-'+menu).stop().css({'text-decoration':'none'});
+					}
+				}
+				
+				$('.activeMenu').each(function( index ) {
+					$('#categoryIconWrap-'+$(this).attr('nicename')).css('margin-left','13px');
+					$('#categoryIcon-'+$(this).attr('nicename')).attr('src','http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/icons/'+$(this).attr('nicename')+'-lit.png');
+				});
+
+			</script>
+		</div>
+	</div>
+</div>				<div class="content-overflow" id="content-overflow">
+				<div class="content-wrap" id="content">
+				<div class="category-wrap">
+				<div class="breadcrumbs">
+				<a href="http://ssfdojo.mcleodgaming.com">Smash Flash 2 DOJO!!</a> > <a href="http://ssfdojo.mcleodgaming.com/notices">Notices</a> > SSF2 Version 0.9b Trailer				</div></div>
+				<div class="post-content-wrap " >
+<div class="postbox">
+	<div class="postbox-colorbar">
+		<img src="http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/category/notices.gif">
+	</div>
+	<div class="postbox-icon">
+		<img height="45px" width="45px" alt="my specific icon" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/07/Posticon_Smash-Bros.png">
+	</div>
+	<div class="postbox-title" style="text-align:left;">
+		<div style="font-weight:bold; font-size:10px; color:#999999;">January 16, 2014</div>
+		<div style="font-weight:bold; font-size:14px; color:#FFFFFF;">SSF2 Version 0.9b Trailer</div>
+	</div>
+	<div class="postbox-caticon">
+		<!--<span class="icon-stack">
+			<i class="icon-circle icon-lite icon-stack-base" style="color:;"></i>
+			<i class=" icon-light"></i>
+		</span>-->
+	</div>
+</div>
+<div class="post-content">
+
+<p><iframe width="500" height="281" src="http://www.youtube.com/embed/VUdUNpT6-Gc?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p style="text-align: left;">The official trailer for Super Smash Flash 2 Version 0.9b. Get hype!</p>
+<p style="text-align: left;">To see more v0.9b gameplay, check out our APEX 2014 stream, live from Somerset, New Jersey, on January 17-19. You can find the stream here: <a dir="ltr" title="http://twitch.tv/mcleodgaming" href="http://twitch.tv/mcleodgaming" target="_blank" rel="nofollow">http://twitch.tv/mcleodgaming</a>. If you&#8217;re attending the event, be sure to stop by our booth to try the game!</p>
+<div class="content-foot">
+<a href="http://ssfdojo.mcleodgaming.com/notices" rel="category tag">Notices</a>&nbsp;&nbsp;|&nbsp;&nbsp;January 16, 2014</div>
+</div>
+</div>
+
+						<div class="footer">
+							<span class="foot1">2013 - The SSF2 Dojo - <a href="http://mcleodgaming.com" >McleodGaming.com</a> | <a href="/legal">Legal Stuff</a></span>
+							<span class="foot2">Hosting 119 Articles!<span>
+							<span class="foot3">Designed and Coded by <a id="jakesiegers" href="http://jakesiegers.com">Jake Siegers</a></span>
+							<span class="foot4"><a href="/credits">I had an awesome team of writers & game devs</a></span>
+							<span class="foot5" id="secret">(Wanna see something cool?)</span>
+						</div>
+					</div>
+					</div>
+					<div style="clear: both;"></div> 
+				</div>
+			</center>
+			<script>
+				window.onload = function() {
+					showContent();
+					adjustSize();
+				};
+
+				$('#secret').bind('click', function(event){
+					event.preventDefault();
+					magicStuff();
+				});
+				function linkClicked(){
+					hideContent();
+					setNextHeader('home');
+				}
+				function searchRun(url){
+					hideContent();
+					var choseColor=false;
+					
+							if(url.indexOf('characters') >= 0){
+								setNextHeader('characters');
+								$('#categoryButton-characters').addClass('clicked');
+								categoryMenuOut('characters');
+								choseColor=true;
+							}else{
+								categoryMenuIn('characters');
+							}
+							
+							if(url.indexOf('game-modes') >= 0){
+								setNextHeader('game-modes');
+								$('#categoryButton-game-modes').addClass('clicked');
+								categoryMenuOut('game-modes');
+								choseColor=true;
+							}else{
+								categoryMenuIn('game-modes');
+							}
+							
+							if(url.indexOf('how-to-play') >= 0){
+								setNextHeader('how-to-play');
+								$('#categoryButton-how-to-play').addClass('clicked');
+								categoryMenuOut('how-to-play');
+								choseColor=true;
+							}else{
+								categoryMenuIn('how-to-play');
+							}
+							
+							if(url.indexOf('items') >= 0){
+								setNextHeader('items');
+								$('#categoryButton-items').addClass('clicked');
+								categoryMenuOut('items');
+								choseColor=true;
+							}else{
+								categoryMenuIn('items');
+							}
+							
+							if(url.indexOf('music') >= 0){
+								setNextHeader('music');
+								$('#categoryButton-music').addClass('clicked');
+								categoryMenuOut('music');
+								choseColor=true;
+							}else{
+								categoryMenuIn('music');
+							}
+							
+							if(url.indexOf('notices') >= 0){
+								setNextHeader('notices');
+								$('#categoryButton-notices').addClass('clicked');
+								categoryMenuOut('notices');
+								choseColor=true;
+							}else{
+								categoryMenuIn('notices');
+							}
+							
+							if(url.indexOf('stages') >= 0){
+								setNextHeader('stages');
+								$('#categoryButton-stages').addClass('clicked');
+								categoryMenuOut('stages');
+								choseColor=true;
+							}else{
+								categoryMenuIn('stages');
+							}
+												if(!choseColor){
+						setNextHeader('home'); //If I cannot decide what color to pick, I choose home color.
+					}
+					window.setTimeout((function(){window.location=url;}),500);
+				}
+				$('a').bind('click', function(event){
+					event.preventDefault();
+					var url = $(this).prop('href');
+
+					hideContent();
+					var choseColor=false;
+					
+									if(url.indexOf('characters') >= 0){
+										setNextHeader('characters');
+										$('#categoryButton-characters').addClass('clicked');
+										categoryMenuOut('characters');
+										choseColor=true;
+									}else{
+										categoryMenuIn('characters');
+									}
+								
+									if(url.indexOf('game-modes') >= 0){
+										setNextHeader('game-modes');
+										$('#categoryButton-game-modes').addClass('clicked');
+										categoryMenuOut('game-modes');
+										choseColor=true;
+									}else{
+										categoryMenuIn('game-modes');
+									}
+								
+									if(url.indexOf('how-to-play') >= 0){
+										setNextHeader('how-to-play');
+										$('#categoryButton-how-to-play').addClass('clicked');
+										categoryMenuOut('how-to-play');
+										choseColor=true;
+									}else{
+										categoryMenuIn('how-to-play');
+									}
+								
+									if(url.indexOf('items') >= 0){
+										setNextHeader('items');
+										$('#categoryButton-items').addClass('clicked');
+										categoryMenuOut('items');
+										choseColor=true;
+									}else{
+										categoryMenuIn('items');
+									}
+								
+									if(url.indexOf('music') >= 0){
+										setNextHeader('music');
+										$('#categoryButton-music').addClass('clicked');
+										categoryMenuOut('music');
+										choseColor=true;
+									}else{
+										categoryMenuIn('music');
+									}
+								
+									if(url.indexOf('notices') >= 0){
+										setNextHeader('notices');
+										$('#categoryButton-notices').addClass('clicked');
+										categoryMenuOut('notices');
+										choseColor=true;
+									}else{
+										categoryMenuIn('notices');
+									}
+								
+									if(url.indexOf('stages') >= 0){
+										setNextHeader('stages');
+										$('#categoryButton-stages').addClass('clicked');
+										categoryMenuOut('stages');
+										choseColor=true;
+									}else{
+										categoryMenuIn('stages');
+									}
+													if(!choseColor){
+						setNextHeader('home'); //If I cannot decide what color to pick, I choose home color.
+					}
+					window.setTimeout((function(){window.location=url;}),500);
+				});
+				function showContent(){
+					$('#content').animate({
+						'margin-top': '0px',
+						'opacity': '1'
+					});
+					setUpFadeStart('post-row');
+					setUpFadeStart('post-mini');
+				}
+				function setUpFadeStart(fieldClass){
+					var count=0;
+					$.each($('.'+fieldClass), function() {
+						count++;
+						var curDomObj = $(this);
+						window.setTimeout((function(){
+							curDomObj.animate({
+								'opacity': '1'
+							});
+						}),100*count);
+					});
+				}
+				function hideContent(){
+					$('#content').animate({
+						'margin-top': '20px',
+						'opacity': '0'
+					});
+				}
+				function setNextHeader(headImg){
+					if($('#header').css('background-image') == 'url("http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-'+headImg+'.png")'){return false;}
+
+					$('#header2').css('background','url(http://ssfdojo.mcleodgaming.com/wp-content/themes/DojoTheme3.0/images/banners/head-'+headImg+'.png) no-repeat top center');
+
+					$('#header2').animate({
+						'opacity': '1'
+					});
+
+					$('#header').animate({
+						'opacity': '0'
+					});
+				}
+
+
+				function adjustSize(){
+					//This shouldn't be as hard as it has been. Jeeeez.
+					var tallest=0;
+					var tallSources = [
+						$(window).height()
+						,$('#sidebar').height()+125
+						,$('#content-overflow').height()+150
+					];
+					for(var i=0;i<tallSources.length;i++){
+						if(tallSources[i]>=tallest){
+							tallest=tallSources[i];
+						}
+					}
+					$('body').css('height',tallest);
+					/*
+					if( < $('#sidebar').height()+150 && $('#sidebar').height()+150 > $('#content-overflow').height()+150){
+						$('body').css('height',$(window).height()+150);
+					}else{
+						$('body').css('height',$('#sidebar').height()+150);
+					}
+					*/
+					//This is debateable. Do we need the sidebar to stretch to the screen? I think it's a bit too much.
+					//$('#sidebar').css('height',$('body').height()-125);
+				}
+				adjustSize();
+				$(window).bind('resize', function(){
+					adjustSize();
+				});
+				
+				function magicStuff(){
+					console.log('MAGHGGGGIIIICC')
+					console.log($('.wrap'));
+					$('body')
+						.transition({ rotate: '+=360deg' },1000);
+						//.transition({ rotate: '+=360deg', scale: 0, opacity:0 },1000)
+						//.transition({ rotate: '-=360deg' },1000,'easeInOutBack')
+						//.transition({ x: 1001, y: 0 },1000,'easeInOutBack')
+						//.transition({ x: -1400, y: 0 },1000)
+						//.transition({ x: 0, y: 0 },1000,'easeInOutBack')
+						//.transition({ x: 0, y: 1001 },1000,'easeInOutBack')
+						//.transition({ x: 0, y: -1001 },1000,'easeInOutBack')
+						//.transition({ x: 0, y: 0 },1000,'easeInOutBack')
+						//.transition({ scale: 1 },1000,'easeInOutBack')
+						//.transition({ rotate: '+=360deg' },1000,'easeInOutBack');
+						//.transition({delay: 500,rotateX: '+=720deg'},5000);
+				}
+
+				//setInterval(function(){
+            		
+            		//$('body').transition({ rotate: (Math.floor(Math.random()*20)-10)+'deg' },100)
+        		//},
+        		//200);
+
+				setInterval(function(){
+					if($('#jakesiegers').css('color')=='rgb(255, 0, 0)'){
+						$('#jakesiegers').transition({color:'rgb(98, 78, 255)'},500);
+					}
+					else if($('#jakesiegers').css('color')=='rgb(98, 78, 255)'){
+						$('#jakesiegers').transition({color:'rgb(28, 147, 0)'},500);
+					}
+					else if($('#jakesiegers').css('color')=='rgb(28, 147, 0)'){
+						$('#jakesiegers').transition({color:'rgb(255, 0, 0)'},500);
+					}
+					
+				},2000);
+
+			</script>
+	<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201602'></script>
+<script type='text/javascript' src='http://ssfdojo.mcleodgaming.com/wp-includes/js/wp-embed.min.js?ver=4.4.1'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201602.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.8.1',blog:'46713609',post:'5097',tz:'0',srv:'ssfdojo.mcleodgaming.com'} ]);
+	_stq.push([ 'clickTrackerInit', '46713609', '5097' ]);
+</script>
+ 
+	</body>
+</html>

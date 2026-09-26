@@ -1,0 +1,565 @@
+/*
+Theme Name: Dojo Theme 3.0
+Theme URI: http://ssfdojo.mcleodgaming.com/
+Description: The beta theme for SSF2 Dojo.
+Author: Jake Siegers
+Author URI: http://jakesiegers.com/
+Version: 3.0
+Tags: ssf, ssf2, jake, siegers, dojo mcleodgaming 
+
+License:
+License URI:
+
+General comments (optional).
+*/
+html{
+	overflow-y:scroll;
+}
+body{
+	font-family: 'Roboto', sans-serif, Arial;
+	margin:0px;
+	padding:0px;
+	background:#ffffff url(images/bg.png) repeat-x center bottom;
+	color : #111111;
+	font-size:12px;
+	/*overflow-y:scroll;*/
+	font-weight:300;
+	-webkit-transition: translate3d(0,0,0);
+	 -webkit-backface-visibility: hidden;
+}
+table{
+	border-collapse:collapse;
+}
+img{
+	border:0px;
+}
+div{
+	padding:0px;
+}
+a{
+	color:#FF6600;
+}
+#wpstats{
+	visibility:hidden;
+	display:none;
+}
+.wrap{
+	width:760px;
+	overflow:none;
+}
+.header{
+	background:transparent url(images/banners/head-home.png) no-repeat top center;
+	margin-top:0px;
+	height:150px;
+	width:100%;
+	z-index: 1000;
+	position:absolute;
+}
+.header2{
+	margin-top:0px;
+	height:150px;
+	width:100%;
+	z-index: 1001;
+	position:absolute;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+.sidebar-bg{
+	float:left;
+	width:160px;
+	margin-top:125px;
+	margin-bottom:10px;
+	background:black;
+	margin-left:21px;
+	padding-bottom:10px;
+	position:absolute;
+	overflow:hidden;
+}
+.sidebar{
+	float:left;
+	margin-top:20px;
+	width:161px;
+	margin-left:5px;
+	text-align:left;
+	color:white;
+	font-weight:100;
+}
+.breadcrumbs{
+	display:block;
+	width:100%;
+	text-align:left;
+}
+.content-wrap{
+	float:right;
+    width: 510px;
+    margin-right:49px;
+	min-height:500px;
+	position:relative;
+	margin-top:20px;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+.content-overflow{
+	float:right;
+	margin-top:130px;
+
+}
+.categories-title{
+	border-style: solid;
+    border-width: 1px 1px 1px 3px;
+    color: white;
+	background:black;
+    margin-bottom: 5px;
+	margin-top: 10px;
+	font-size:12px;
+	font-weight:bold;
+    width: 147px;
+}
+.categories{
+	width:161px;
+}
+.category-button{
+	display:block;
+	width:151px;
+	height:44px;
+	text-decoration:none;
+	color:white;
+}
+.category-button span{
+	display: block;
+    height: 30px;
+    padding-left: 55px;
+    padding-top: 13px;
+    width: 96px;
+	font-size:15px;
+}
+.category-button:hover{
+	text-decoration:underline;
+}
+.vectorCategoryBox{
+	display: block;
+	font-size:15px;
+	width:161px;
+	color:white;
+	height:44px;
+	overflow:visible;
+}
+
+.vectorCategoryColor{
+	display: block;
+	float:left;
+	width:3px;
+	height:44px;
+}
+.vectorCategoryIcon{
+	display: block;
+	margin-left:5px;
+	float:left;
+	color:black;
+	font-size:20px;
+	/*-webkit-text-stroke: 1px;*/
+	/*text-shadow: rgba(0, 0, 0, .01) 0 0 1px;*/
+}.vectorCategoryIcon img{
+	margin-top:3px;
+}
+.vectorCategoryText{
+	display: block; 
+	float:left;
+	margin-left:5px;
+	margin-top:12px;
+	
+}
+.category-header{
+	float:left;
+	display:block;
+	width:100%;
+	text-align:left;
+	font-size:40px;
+	font-weight:900;
+	padding-left:10px;
+	/*margin-top:20px;*/
+	line-height:1;
+}
+.sub-cat-header{
+	float:left;
+	display:block;
+	width:100%;
+	text-align:left;
+	font-size:40px;
+	font-weight:900;
+	padding-left:10px;
+	margin-top:20px;
+	margin-left:20px;
+	line-height:1;
+}
+.sub-cat-box{
+	margin-bottom:20px;
+	background:white;
+	width:100%;
+	border:1px solid #cccccc;
+	text-align:center;
+	float:left;
+}
+.banner{
+	display:block;
+    margin-top: 15px;
+	font-size:15px;
+	color:white;
+}
+/*.sub-categories{
+	background:url(images/tabs/grayTab.png) repeat-x top left;
+	width:569px;
+	height:48px;
+	overflow:hidden;
+}
+.sub-category-button{
+	float:left;
+	height:48px;
+	text-decoration:none;
+	color:white;
+}
+.sub-category-button span{
+	display: block;
+    height: 30px;
+    padding-left: 25px;
+	padding-right: 25px;
+    padding-top: 15px;
+	font-size:15px;
+}
+.sub-category-button:hover{
+	text-decoration:underline;
+}
+*/
+.post-mini{
+	float:left;
+	width:100px;
+	height:130px;
+	margin-left:21px;
+	margin-top:10px;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+.post-mini-name{
+	float:left;
+	width:70px;
+	text-align:left;
+}
+.post-mini-arrow img{
+	padding:0px;
+	margin:0px;
+	margin-left:10px;
+	margin-right:5px;
+	float:left;
+}
+.post-mini a{
+	color: #FF6600;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.post-mini a:hover{
+	text-decoration: none;
+}
+
+.post-row{
+	float:left;
+	margin-top:10px;
+	width:500px;
+	border:1px solid #CCCCCC;
+	height: 87px;
+	padding:5px;
+	background:white;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+.post-row-icon{
+	float:left;
+	height: 89px;
+	width: 89px;
+}
+.post-row-name{
+	float:left;
+	height: 87px;
+	width: 294px;
+}
+.post-row-name img{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:33px;
+}
+.post-row-name a{
+	float:left;
+	margin-top:30px;
+	color: #FF6600;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.post-row-name a:hover{
+	text-decoration: none;
+}
+.post-row-date{
+	float:left;
+	background:#E6E8ED;
+    color: #999999;
+    height: 87px;
+    text-align: center;
+    width: 117px;
+}
+.post-row-date span{
+	display:block;
+	margin-top:32px;
+}
+.postbox{
+	float:left;
+	width:510px;
+	
+	background:black;
+}
+.postbox-colorbar{
+	float:left;
+	width:6px;
+	height:54px;
+}
+.postbox-icon{
+	float:left;
+	width:60px;
+	margin-top:4px;
+}
+.postbox-title{
+	float:left;
+	width:400px;
+	padding-top:10px;
+}
+.postbox-caticon{
+	float:left;
+	padding-top:13px;
+}
+.category-wrap{
+	float:left;
+	margin-top:5px;
+	margin-left:20px;
+	width: 510px;
+}
+.post-content-wrap{
+	background:white;
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:20px;
+	border: 1px solid #d1d1d1;
+	width: 510px;
+}
+.post-content{
+	float:left;
+	font-weight:400;
+	width: 485px;
+	margin-left:10px;
+}
+.purpleGradient{
+	background: white url(images/gradientdojo.png) repeat-x 0px 54px;
+}
+.big-o-footer{
+	height:20px;
+}
+.footer{
+	display:block;
+	margin-top:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left: 20px;
+	border-top:1px solid #d1d1d1;
+	float:left;
+	width:100%;
+}
+.foot1{
+	display:block;
+	font-size:15px;
+	font-weight:900;
+	width:100%;
+}
+.foot1 a{
+	text-decoration: none;
+}
+.foot1 a:hover{
+	text-decoration: underline;
+}
+
+.foot2{
+	display:block;
+	font-weight:900;
+	width:100%;
+}
+
+.foot3{
+	display:block;
+	font-weight:900;
+	width:100%;
+}
+.foot3 a{
+	text-decoration: none;
+}
+.foot3 a:hover{
+	text-decoration: underline;
+}
+
+
+.foot4{
+	display:block;
+	width:100%;
+}
+.foot4 a{
+	text-decoration: none;
+}
+.foot4 a:hover{
+	text-decoration: underline;
+}
+
+
+.foot5{
+	display:block;
+	width:100%;
+	opacity:.1;
+	filter:alpha(opacity=10);
+}
+.playGameText{
+	font-weight:500;
+	font-size:20px;
+	float:left;
+	display:block;
+	width:160px;
+	height:233px;
+	top:10px;
+	left:10px;
+	background: url(images/PlayTheGameBanner.png) no-repeat top left;
+}
+.playGameText{
+	text-decoration:none;
+}
+.playGameText:hover{
+	text-decoration:underline;
+}
+.playGameText div{
+	display:block;
+	margin-top:150px;
+	background: url(images/PlayTheGameBannerFade.png) repeat top left;
+}
+
+#jakesiegers{
+	color:rgb(255, 0, 0);
+}
+
+.content-foot{
+	display:block;
+	text-align: right;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top:1px dotted #d1d1d1;
+}
+
+.music-player{
+	display:block;
+	width:300px;
+	height:30px;
+	padding-top:10px;
+	background:#d1d1d1;
+	margin-top:10px;
+	font-weight:bold;
+}
+.music-player-title{
+	display:block;
+	width:100%;
+	margin-top:10px;
+	font-weight:bold;
+}
+.music-player-time{
+	font-weight:normal;
+}
+.music-player-composer{
+	display:block;
+	width:90%;
+	margin-top:10px;
+	font-weight:bold;
+}
+.music-player-copyright{
+	display:block;
+	width:90%;
+	padding-bottom:10px;
+	border-bottom:1px dotted #d1d1d1;
+}
+
+.huge-404{
+	display:block;
+	font-size:60px;
+}
+
+
+.ui-menu {
+	font-size:15px;
+	background-color:rgba(0,0,0,0.5);
+	border:1px solid black;
+	color:white;
+    background-clip: padding-box;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+	display: none;
+    float: left;
+	left: 0;
+    list-style: none outside none;
+	margin: 2px 0 0;
+    min-width: 160px;
+	padding: 5px 5px;
+	position: absolute;
+	top: 100%;
+    z-index: 2000;
+}
+.ui-state-focus{
+	background-color:#FF6600;
+}
+.ui-helper-hidden-accessible{
+	display:none;
+}
+#quickSearch{
+	font-size:20px;
+	background-color:rgba(0,0,0,0.5);
+	border:1px solid black;
+	color:white;
+}
+
+.ui-menu a{
+	color:white !important;
+}
+
+
+
+table.SMoves {
+    border: 1px solid #FFFFFF;
+    border-collapse: collapse;
+    margin: 40px auto 20px;
+    width: 400px;
+}
+.SMoves {
+    font-weight: bold;
+}
+.SMoves TH {
+    background-color: #A5ABB9;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 6px;
+    width: 180px;
+}
+.SMoves TD {
+    background-color: #EDEEF2;
+    border: 1px solid #FFFFFF;
+    padding: 6px;
+    width: 220px;
+}
+TH.SMoves_t {
+    background-color: #131313;
+    width: 400px;
+}
+TH.SMoves_t2 {
+    background-color: #848B9A;
+    padding: 3px;
+    width: 400px;
+}
