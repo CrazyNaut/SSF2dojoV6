@@ -416,6 +416,7 @@
 
     Promise.all([
         loadComponent("dojo-header", "header.html"),
+        loadComponent("dojo-search", "search.html"),
         loadComponent("dojo-sidebar", "sidebar.html"),
         loadComponent("dojo-footer", "footer.html")
     ])
