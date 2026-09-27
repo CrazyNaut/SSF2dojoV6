@@ -537,4 +537,3 @@ var snowStorm = (function(window, document) {
   return this;
 
 }(window, document));
-}
