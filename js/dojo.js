@@ -380,23 +380,20 @@
 
 
     imagePreload()
-    .then(function () {
 
-        fixSitePaths();
+    fixSitePaths();
 
-        setHeader();
-        setupActiveCategory();
+    setHeader();
+    setupActiveCategory();
 
-        setupCategories();
-        setupLinks();
-        setupSecretButton();
-        setupSearch();
-        setupJakeAnimation();
+    setupCategories();
+    setupLinks();
+    setupSecretButton();
+    setupSearch();
+    setupJakeAnimation();
 
-        showContent();
-        adjustSize();
-
-    });
+    showContent();
+    adjustSize();
 
     $(window).on("resize", function () {
         adjustSize();
