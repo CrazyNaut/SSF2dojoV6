@@ -126,9 +126,20 @@
 
         if (button) {
             button.classList.add("activeMenu");
+            var icon = document.getElementById(
+                "categoryIcon-" + category
+            );
             var iconWrap = document.getElementById(
                 "categoryIconWrap-" + category
             );
+
+            if (icon) {
+                icon.src = new URL(
+                    "wp-content/themes/DojoTheme3.0/images/icons/" +
+                    category + "-lit.png",
+                    siteRoot
+                ).href;
+            }
 
             if (iconWrap) {
                 iconWrap.style.marginLeft = "13px";
