@@ -81,10 +81,10 @@
 
         ];
         var images = [];
-        for (i = 0; i < preload.length; i++) {
+        for (var i = 0; i < preload.length; i++) {
             //console.log('Preloading'+i)
             images[i] = new Image();
-            images[i].src = preload[i];
+            images[i].src = new URL(preload[i], siteRoot).href;
         }
     }
 
@@ -426,11 +426,6 @@
 
         imagePreload();
 
-    });
-
-
-    $(window).on("resize", function () {
-        adjustSize();
     });
 
     $(window).on("resize", function () {
