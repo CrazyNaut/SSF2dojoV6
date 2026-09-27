@@ -563,3 +563,13 @@ TH.SMoves_t2 {
     padding: 3px;
     width: 400px;
 }
+
+
+/* New */
+.search{
+    float:left;
+    position:relative;
+    top:50px;
+    left:530px;
+    z-index:2000;
+}
