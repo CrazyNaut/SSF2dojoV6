@@ -3,6 +3,34 @@
     var script = document.currentScript;
     var siteRoot = new URL("../", script.src);
 
+    function loadComponent(elementId, file) {
+
+        var element = document.getElementById(elementId);
+
+        if (!element) {
+            return Promise.resolve();
+        }
+
+        return fetch(new URL("includes/" + file, siteRoot))
+            .then(function (response) {
+
+                if (!response.ok) {
+                    throw new Error(
+                        "Could not load " + file +
+                        " (" + response.status + ")"
+                    );
+                }
+
+                return response.text();
+            })
+            .then(function (html) {
+                element.innerHTML = html;
+            })
+            .catch(function (error) {
+                console.error("Dojo component error:", error);
+            });
+    }
+
     function fixSitePaths() {
         document.querySelectorAll("[data-site-path]").forEach(function (element) {
 
@@ -20,37 +48,36 @@
 
     function imagePreload(){
         var preload = [
-            '../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/banners/head-home.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/banners/head-characters.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/banners/head-game-modes.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/banners/head-how-to-play.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/banners/head-items.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/banners/head-music.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/banners/head-notices.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/banners/head-stages.png'
+            'wp-content/themes/DojoTheme3.0/images/banners/head-home.png'
+            ,'wp-content/themes/DojoTheme3.0/images/banners/head-characters.png'
+            ,'wp-content/themes/DojoTheme3.0/images/banners/head-game-modes.png'
+            ,'wp-content/themes/DojoTheme3.0/images/banners/head-how-to-play.png'
+            ,'wp-content/themes/DojoTheme3.0/images/banners/head-items.png'
+            ,'wp-content/themes/DojoTheme3.0/images/banners/head-music.png'
+            ,'wp-content/themes/DojoTheme3.0/images/banners/head-notices.png'
+            ,'wp-content/themes/DojoTheme3.0/images/banners/head-stages.png'
 
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/uncategorized.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/characters.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/game-modes.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/how-to-play.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/items.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/music.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/notices.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/stages.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/rss.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/playSSF2.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/uncategorized.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/characters.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/game-modes.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/how-to-play.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/items.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/music.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/notices.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/stages.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/rss.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/playSSF2.png'
             
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/uncategorized-lit.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/characters-lit.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/game-modes-lit.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/how-to-play-lit.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/items-lit.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/music-lit.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/notices-lit.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/stages-lit.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/rss-lit.png'
-            ,'../../../SSF2dojoV6/wp-content/themes/DojoTheme3.0/images/icons/playSSF2-lit.png'
-
+            ,'wp-content/themes/DojoTheme3.0/images/icons/uncategorized-lit.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/characters-lit.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/game-modes-lit.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/how-to-play-lit.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/items-lit.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/music-lit.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/notices-lit.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/stages-lit.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/rss-lit.png'
+            ,'wp-content/themes/DojoTheme3.0/images/icons/playSSF2-lit.png'
 
         ];
         var images = [];
@@ -377,23 +404,34 @@
         }, 2000);
     }
 
+    Promise.all([
+        loadComponent("dojo-header", "header.html"),
+        loadComponent("dojo-sidebar", "sidebar.html"),
+        loadComponent("dojo-footer", "footer.html")
+    ])
+    .then(function () {
+        fixSitePaths();
+
+        setHeader();
+        setupActiveCategory();
+
+        setupCategories();
+        setupLinks();
+        setupSecretButton();
+        setupSearch();
+        setupJakeAnimation();
+
+        showContent();
+        adjustSize();
+
+        imagePreload();
+
+    });
 
 
-    imagePreload()
-
-    fixSitePaths();
-
-    setHeader();
-    setupActiveCategory();
-
-    setupCategories();
-    setupLinks();
-    setupSecretButton();
-    setupSearch();
-    setupJakeAnimation();
-
-    showContent();
-    adjustSize();
+    $(window).on("resize", function () {
+        adjustSize();
+    });
 
     $(window).on("resize", function () {
         adjustSize();
