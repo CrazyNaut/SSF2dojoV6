@@ -8,181 +8,465 @@
 	>
 
 <channel>
-	<title>Smash Flash 2 DOJO!!</title>
-	<atom:link href="http://ssfdojo.mcleodgaming.com/feed" rel="self" type="application/rss+xml" />
+	<title>Characters &#8211; Smash Flash 2 DOJO!!</title>
+	<atom:link href="http://ssfdojo.mcleodgaming.com/characters/feed" rel="self" type="application/rss+xml" />
 	<link>http://ssfdojo.mcleodgaming.com</link>
 	<description>Your SSF2 Resource!</description>
-	<lastBuildDate>Tue, 30 Jun 2015 16:20:37 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Mar 2016 01:02:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.4.2</generator>
+	<generator>https://wordpress.org/?v=4.4.5</generator>
 	<item>
-		<title>DOJO!! Back Online</title>
-		<link>http://ssfdojo.mcleodgaming.com/notices/dojo-back-online</link>
-		<pubDate>Tue, 30 Jun 2015 16:20:25 +0000</pubDate>
-		<dc:creator><![CDATA[Sirtopeia]]></dc:creator>
-				<category><![CDATA[Notices]]></category>
+		<title>Lloyd Irving</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/newcomers/lloyd</link>
+		<pubDate>Tue, 24 Dec 2013 08:01:59 +0000</pubDate>
+		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
+				<category><![CDATA[Newcomers]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=5114</guid>
-		<description><![CDATA[If you are unaware, McleodGaming suffered a server crash this week, and had to recover from backups. The DOJO!! has now been recovered, but for reasons unknown, we lost some of our media files. At this point we only seem to be missing certain music files. We&#8217;re working to get these files back online ASAP.]]></description>
-				<content:encoded><![CDATA[<p>If you are unaware, McleodGaming suffered a server crash this week, and had to recover from backups.</p>
-<p>The DOJO!! has now been recovered, but for reasons unknown, we lost some of our media files. At this point we only seem to be missing certain music files.</p>
-<p>We&#8217;re working to get these files back online ASAP.</p>
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4929</guid>
+		<description><![CDATA[The speedy master of swordsmanship, Lloyd Irving, is ready to join the battle! Lloyd wields two swords, and he uses them to their fullest extent to pull off a wide variety of attacks and combos. A combination of precise sword strikes and other unique attacks is the key to victory. Lloyd&#8217;s Special Moves Standard Special Move Demon Fang [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/Lloyd.png" /></p>
+<p style="text-align: left;">The speedy master of swordsmanship, Lloyd Irving, is ready to join the battle!</p>
+<p style="text-align: left;">Lloyd wields two swords, and he uses them to their fullest extent to pull off a wide variety of attacks and combos. A combination of precise sword strikes and other unique attacks is the key to victory.</p>
+<p style="text-align: left;"><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/lloyd1.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/lloyd4.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/lloyd3.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/lloyd2.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Lloyd&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>Demon Fang</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>Sonic Thrust</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>Tiger Blade</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>Grave Blade</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>Falcon&#8217;s Crest</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
 			</item>
 		<item>
-		<title>SSF2 Version 0.9b Trailer</title>
-		<link>http://ssfdojo.mcleodgaming.com/notices/ssf2-version-0-9b-trailer</link>
-		<pubDate>Thu, 16 Jan 2014 06:30:33 +0000</pubDate>
+		<title>Ness</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/ness</link>
+		<pubDate>Sat, 21 Dec 2013 05:35:19 +0000</pubDate>
 		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
-				<category><![CDATA[Notices]]></category>
+				<category><![CDATA[Veteran Fighters]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=5097</guid>
-		<description><![CDATA[The official trailer for Super Smash Flash 2 Version 0.9b. Get hype! To see more v0.9b gameplay, check out our APEX 2014 stream, live from Somerset, New Jersey, on January 17-19. You can find the stream here: http://twitch.tv/mcleodgaming. If you&#8217;re attending the event, be sure to stop by our booth to try the game!]]></description>
-				<content:encoded><![CDATA[<p><iframe width="500" height="281" src="http://www.youtube.com/embed/VUdUNpT6-Gc?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
-<p style="text-align: left;">The official trailer for Super Smash Flash 2 Version 0.9b. Get hype!</p>
-<p style="text-align: left;">To see more v0.9b gameplay, check out our APEX 2014 stream, live from Somerset, New Jersey, on January 17-19. You can find the stream here: <a dir="ltr" title="http://twitch.tv/mcleodgaming" href="http://twitch.tv/mcleodgaming" target="_blank" rel="nofollow">http://twitch.tv/mcleodgaming</a>. If you&#8217;re attending the event, be sure to stop by our booth to try the game!</p>
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4904</guid>
+		<description><![CDATA[Ness, the thirteen-year-old protagonist of Earthbound, travels to the world of Super Smash Flash! Ness sports a wide variety of attacks of all speeds, strengths, and varieties. His psionic abilities in conjunction with his assorted tools and weapons are sure to score you KOs with ease! Ness&#8217;s Special Moves Standard Special Move PK Flash Side [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/Ness.png" /></p>
+<p style="text-align: left;"><span style="line-height: 1.5em;">Ness, the thirteen-year-old protagonist of Earthbound, travels to the world of Super Smash Flash!</span></p>
+<p style="text-align: left;"><span style="line-height: 1.5em;">Ness sports a wide variety of attacks of all speeds, strengths, and varieties. His psionic abilities in conjunction with his assorted tools and weapons are sure to score you KOs with ease!</span></p>
+<p style="text-align: left;"><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/ness1.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/ness2.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/ness3.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/ness4.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Ness&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>PK Flash</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>PK Fire</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>PK Thunder</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>PSI Magnet</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>PK Starstorm</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
 			</item>
 		<item>
-		<title>???</title>
-		<link>http://ssfdojo.mcleodgaming.com/notices/5071</link>
-		<pubDate>Thu, 09 Jan 2014 09:30:20 +0000</pubDate>
+		<title>Meta Knight</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/meta-knight-2</link>
+		<pubDate>Thu, 12 Dec 2013 15:50:19 +0000</pubDate>
 		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
-				<category><![CDATA[Notices]]></category>
+				<category><![CDATA[Veteran Fighters]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=5071</guid>
-		<description><![CDATA[What&#8217;s this!? A mysterious light appears in the distance&#8230; This post marks the second-to-last post in this iteration of the Smash Flash DOJO!! The final update will appear sometime next week &#8211; and rest assured, we&#8217;ve prepared something special for the occasion. We hope you&#8217;ve enjoyed reading, and we&#8217;ll see you at Apex 2014! -The [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p><a href="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/r8hqoe3w.png"><img class="alignnone size-medium wp-image-5072" alt="r8hqoe3w" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/r8hqoe3w-300x168.png" height="220" /></a><br />
-<strong>What&#8217;s this!? A mysterious light appears in the distance&#8230;</strong></p>
-<p style="text-align: left;">This post marks the second-to-last post in this iteration of the Smash Flash DOJO!! The final update will appear sometime next week &#8211; and rest assured, we&#8217;ve prepared something special for the occasion. We hope you&#8217;ve enjoyed reading, and we&#8217;ll see you at <a href="https://www.facebook.com/mcleodgaming/posts/10152128962510446?stream_ref=10" target="_blank">Apex 2014</a>!</p>
-<p style="text-align: left;">-The Smash Flash DOJO!! Team</p>
-<p>&nbsp;</p>
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4855</guid>
+		<description><![CDATA[Meta Knight, Kirby&#8217;s mysterious rival, joins Super Smash Flash 2! Meta Knight&#8217;s forte is the speed of his sword combined with his aerial mobility. Choose your attacks quickly and wisely, and your opponents won&#8217;t be able to keep up! Meta Knight&#8217;s Special Moves Standard Special Move Mach Tornado Side Special Move Drill Rush Up Special [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/MK.png" /></p>
+<p style="text-align: left;">Meta Knight, Kirby&#8217;s mysterious rival, joins Super Smash Flash 2!</p>
+<p style="text-align: left;">Meta Knight&#8217;s forte is the speed of his sword combined with his aerial mobility. Choose your attacks quickly and wisely, and your opponents won&#8217;t be able to keep up!</p>
+<p style="text-align: left;"><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/metaknight1.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/metaknightdabess2.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/metaknight3.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/metaknight4.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Meta Knight&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>Mach Tornado</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>Drill Rush</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>Shuttle Loop</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>Dimensional Cape</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>Galaxia Darkness</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
 			</item>
 		<item>
-		<title>Dracula&#8217;s Castle</title>
-		<link>http://ssfdojo.mcleodgaming.com/music/draculas-castle-2</link>
-		<pubDate>Wed, 08 Jan 2014 08:13:12 +0000</pubDate>
+		<title>Sonic</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/sonic-2</link>
+		<comments>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/sonic-2#respond</comments>
+		<pubDate>Mon, 02 Dec 2013 10:05:35 +0000</pubDate>
 		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
-				<category><![CDATA[Music]]></category>
+				<category><![CDATA[Veteran Fighters]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=5064</guid>
-		<description><![CDATA[Like a good number of other songs in this version, Dracula&#8217;s Castle&#8217;s music is an entirely new mix. This new music manages to seem fresh and exciting while preserving the feel of previous iterations. It&#8217;s a lot of fun to listen to while you fight under the moonlight!]]></description>
-				<content:encoded><![CDATA[<p style="text-align: left;">Like a good number of other songs in this version, Dracula&#8217;s Castle&#8217;s music is an entirely new mix. This new music manages to seem fresh and exciting while preserving the feel of previous iterations. It&#8217;s a lot of fun to listen to while you fight under the moonlight!</p>
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4750</guid>
+		<description><![CDATA[Sonic the Hedgehog, an almost peerless gaming icon, races into Super Smash Flash 2! Sonic&#8217;s his name, and speed is his game: he&#8217;s the fastest fighter by a decent margin. His quick attacks and movement let Sonic run circles around the opposition! Sonic&#8217;s Special Moves Standard Special Move Homing Attack Side Special Move Light Dash [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/Sonic.png" /></p>
+<p style="text-align: left;">Sonic the Hedgehog, an almost peerless gaming icon, races into Super Smash Flash 2!</p>
+<p style="text-align: left;">Sonic&#8217;s his name, and speed is his game: he&#8217;s the fastest fighter by a decent margin. His quick attacks and movement let Sonic run circles around the opposition!</p>
+<p style="text-align: left;"><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/sonic1.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/sonic2.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/sonic4.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/sonic3.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Sonic&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>Homing Attack</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>Light Dash</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>Spring Jump</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>Spin Dash</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>Super Sonic</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/sonic-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
-		<title>Dracula&#8217;s Castle</title>
-		<link>http://ssfdojo.mcleodgaming.com/stages/draculas-castle</link>
-		<pubDate>Tue, 07 Jan 2014 08:45:03 +0000</pubDate>
+		<title>Pikachu</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/pikachu-2</link>
+		<comments>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/pikachu-2#respond</comments>
+		<pubDate>Tue, 26 Nov 2013 11:41:40 +0000</pubDate>
 		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
-				<category><![CDATA[Stages]]></category>
+				<category><![CDATA[Veteran Fighters]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=5052</guid>
-		<description><![CDATA[Dracula&#8217;s Castle is one of the defining locations in the Castlevania series. It&#8217;s gotten some visual updates for the new version, but it retains its charm. How ominous. The focus of this stage is on the three platforms that float above it. There&#8217;s something unusual about how they&#8217;re arranged, though&#8230; Their alignment won&#8217;t stop changing! [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/dracfull.png" height="275px" /></p>
-<p style="text-align: left;">Dracula&#8217;s Castle is one of the defining locations in the Castlevania series. It&#8217;s gotten some visual updates for the new version, but it retains its charm.</p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/drac1.png" height="220px" /><br />
-<strong>How ominous.</strong></p>
-<p style="text-align: left;">The focus of this stage is on the three platforms that float above it. There&#8217;s something unusual about how they&#8217;re arranged, though&#8230;</p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/drac2.png" height="220px" /><br />
-<img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/drac3.png" height="220px" /><br />
-<img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/dract.png" height="220px" /><br />
-<b>Their alignment won&#8217;t stop changing!</b></p>
-<p style="text-align: left;">Don&#8217;t worry about it getting too crazy, though. You&#8217;ll get a chance to fight for a bit on each layout before it changes again.</p>
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4714</guid>
+		<description><![CDATA[One of the most recognizable faces among gamers young and old, it&#8217;s Pikachu! Pikachu has become something of a mascot for the Pokémon series, so it&#8217;s not exactly unexpected that it would show up here. Pikachu&#8217;s set of moves is full of both lightning and lightning-quick attacks. It&#8217;s a potent mix of speed and power, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/Pikachu.png" /></p>
+<p style="text-align: left;">One of the most recognizable faces among gamers young and old, it&#8217;s Pikachu! Pikachu has become something of a mascot for the Pokémon series, so it&#8217;s not exactly unexpected that it would show up here.</p>
+<p style="text-align: left;">Pikachu&#8217;s set of moves is full of both lightning and lightning-quick attacks. It&#8217;s a potent mix of speed and power, and is well-equipped to deal with almost any situation.</p>
+<p style="text-align: left;"><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/pika2.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/pika1.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/pika3.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/pika4.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Pikachu&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>Thunder Jolt</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>Skull Bash</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>Quick Attack</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>Thunder</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>Volt Tackle</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/pikachu-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
-		<title>Emerald Cave</title>
-		<link>http://ssfdojo.mcleodgaming.com/music/emerald-cave-2</link>
-		<pubDate>Mon, 06 Jan 2014 09:33:35 +0000</pubDate>
+		<title>Sheik</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/sheik</link>
+		<comments>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/sheik#respond</comments>
+		<pubDate>Thu, 07 Nov 2013 09:48:07 +0000</pubDate>
 		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
-				<category><![CDATA[Music]]></category>
+				<category><![CDATA[Veteran Fighters]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=5044</guid>
-		<description><![CDATA[This new track for Emerald Cave has a unique and distinctive atmosphere. It definitely sounds a lot different than most of the others in the game: it&#8217;s slow, mellow, and calming. If you close your eyes while you listen, it&#8217;s sure to conjure up imagery of a warm, peaceful summer.]]></description>
-				<content:encoded><![CDATA[<p style="text-align: left;">This new track for Emerald Cave has a unique and distinctive atmosphere. It definitely sounds a lot different than most of the others in the game: it&#8217;s slow, mellow, and calming. If you close your eyes while you listen, it&#8217;s sure to conjure up imagery of a warm, peaceful summer.</p>
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4551</guid>
+		<description><![CDATA[As Zelda&#8217;s alter ego, Sheik is easily accessible from Zelda&#8217;s slot in on the character selection screen. Additionally, each character&#8217;s down special allows you to transform into the other. It&#8217;s up to you whether you want to stick with one character exclusively or switch depending on the situation. While Zelda uses a lot of magic and [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/Shiek.png" /></p>
+<p style="text-align: left;">As Zelda&#8217;s alter ego, Sheik is easily accessible from Zelda&#8217;s slot in on the character selection screen. Additionally, each character&#8217;s down special allows you to transform into the other. It&#8217;s up to you whether you want to stick with one character exclusively or switch depending on the situation.</p>
+<p style="text-align: left;">While Zelda uses a lot of magic and spells, Sheik is all about precise physical attacks and an assortment of weapons. You&#8217;ll also find that Sheik is able to move around much more quickly.</p>
+<p><img class="alignleft" alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/sheik1.png" height="160px" /> <img class="alignleft" alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/sheik2.png" height="160px" /> <img class="alignleft" alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/sheik3.png" height="160px" /> <img class="alignleft" alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/11/sheik4.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Sheik&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>Needle Storm</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>Chain</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>Vanish</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>Transform</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>Light Arrow</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/sheik/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
-		<title>Victini</title>
-		<link>http://ssfdojo.mcleodgaming.com/items/pokeballs/victini</link>
-		<pubDate>Fri, 03 Jan 2014 08:24:09 +0000</pubDate>
+		<title>Tails</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/newcomers/tails-2</link>
+		<comments>http://ssfdojo.mcleodgaming.com/characters/newcomers/tails-2#respond</comments>
+		<pubDate>Wed, 23 Oct 2013 07:06:23 +0000</pubDate>
 		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
-				<category><![CDATA[Pokeballs]]></category>
+				<category><![CDATA[Newcomers]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=5033</guid>
-		<description><![CDATA[As a legendary Pokémon, Victini is suitably rare, but also suitably powerful. It brings total destruction with it&#8217;s signature attack, V-create! Small, but incredibly powerful. Victini will rapidly move around an opponent in a circular pattern, dealing damage if it makes contact. If you start getting hit, you might find yourself getting KO&#8217;d soon after! Yikes! Don&#8217;t [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p><a href="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/Victini.png" height="350px"><img class="size-full wp-image-3835 aligncenter" alt="Victini" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/Victini.png" /></a></p>
-<p style="text-align: left;">As a legendary Pokémon, Victini is suitably rare, but also suitably powerful. It brings total destruction with it&#8217;s signature attack, V-create!</p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/victini1.png" height="220px" /><br />
-<strong>Small, but incredibly powerful.</strong></p>
-<p style="text-align: left;">Victini will rapidly move around an opponent in a circular pattern, dealing damage if it makes contact. If you start getting hit, you might find yourself getting KO&#8217;d soon after!</p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2014/01/victini2.png" height="220px" /><br />
-<strong>Yikes! Don&#8217;t get too close!</strong></p>
-<p style="text-align: left;">If you make sure you stay still or only move slowly, you might be able to avoid getting in Victini&#8217;s path. Your opponents might have something to say about that, though.</p>
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4433</guid>
+		<description><![CDATA[Miles &#8220;Tails&#8221; Prower, Sonic&#8217;s faithful sidekick, comes to the battle armed with his twin tails and gadgetry. Tails is most effective when he takes to the air, where he can pull off deadly attacks with ease. His tails give him nearly unparalleled mobility when airborne as well. Tails&#8217;s Special Moves Standard Special Move Electron Cannon [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/Tails.png" /></p>
+<p style="text-align: left;">Miles &#8220;Tails&#8221; Prower, Sonic&#8217;s faithful sidekick, comes to the battle armed with his twin tails and gadgetry.</p>
+<p style="text-align: left;">Tails is most effective when he takes to the air, where he can pull off deadly attacks with ease. His tails give him nearly unparalleled mobility when airborne as well.</p>
+<p><img class="alignleft" alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/tails1.png" height="160px" /> <img class="alignleft" alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/tails2.png" height="160px" /> <img class="alignleft" alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/tails3.png" height="160px" /> <img class="alignleft" alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/tails4.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Tails&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>Electron Cannon</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>Rhythm Twister</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>Tails Whirlwind</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>Spin Dash</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>Tornado</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>http://ssfdojo.mcleodgaming.com/characters/newcomers/tails-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
-		<title>Victory Themes 2</title>
-		<link>http://ssfdojo.mcleodgaming.com/music/victory-themes-2</link>
-		<pubDate>Thu, 02 Jan 2014 07:10:59 +0000</pubDate>
+		<title>Captain Falcon</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/captain-falcon-2</link>
+		<comments>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/captain-falcon-2#respond</comments>
+		<pubDate>Wed, 16 Oct 2013 07:02:28 +0000</pubDate>
 		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
-				<category><![CDATA[Music]]></category>
+				<category><![CDATA[Veteran Fighters]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=5029</guid>
-		<description><![CDATA[It&#8217;s been a while since we posted the first of the new victory themes, so we figured it was about time for another set! This track contains another sampling of five of the new themes. Do you recognize all of them?]]></description>
-				<content:encoded><![CDATA[<p style="text-align: left;">It&#8217;s been a while since we posted the first of the new victory themes, so we figured it was about time for another set! This track contains another sampling of five of the new themes. Do you recognize all of them?</p>
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4383</guid>
+		<description><![CDATA[From the track to the stage, Captain Falcon jumps into action! Fast, sturdy and strong, this skilled racer is also a capable fighter. Don&#8217;t blink, or he&#8217;ll have you offstage &#8211; in record time! Captain Falcon&#8217;s Special Moves Standard Special Move Falcon Punch Side Special Move Raptor Boost Up Special Move Falcon Dive Down Special [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/Captain-Falcon.png" /></p>
+<p style="text-align: left;">From the track to the stage, Captain Falcon jumps into action!</p>
+<p style="text-align: left;">Fast, sturdy and strong, this skilled racer is also a capable fighter. Don&#8217;t blink, or he&#8217;ll have you offstage &#8211; in record time!</p>
+<p style="text-align: left;"><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/falcon2.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/falcon1.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/falcon3.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/falcon4.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Captain Falcon&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>Falcon Punch</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>Raptor Boost</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>Falcon Dive</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>Falcon Kick</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>Blue Falcon</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/captain-falcon-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
-		<title>Gligar</title>
-		<link>http://ssfdojo.mcleodgaming.com/items/pokeballs/gligar</link>
-		<pubDate>Tue, 31 Dec 2013 07:19:24 +0000</pubDate>
+		<title>Jigglypuff</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/jigglypuff-2</link>
+		<comments>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/jigglypuff-2#respond</comments>
+		<pubDate>Tue, 08 Oct 2013 07:52:15 +0000</pubDate>
 		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
-				<category><![CDATA[Pokeballs]]></category>
+				<category><![CDATA[Veteran Fighters]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=5003</guid>
-		<description><![CDATA[Gligar is a flying Pokémon that looks a bit like a bat. It&#8217;s aggressive, quick, and often deadly. And a cute lil&#8217; guy, to boot. Gligar will repeatedly charge at an opponent at lightning speed from random angles, hitting them away in the process. Each time it charges, its attack increases in strength! A solid [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p><a href="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/Gligar.png"><img class="size-full wp-image-3835 aligncenter" alt="Gligar" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/Gligar.png" /></a></p>
-<p style="text-align: left;">Gligar is a flying Pokémon that looks a bit like a bat. It&#8217;s aggressive, quick, and often deadly.</p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/gligar1.png" height="220px" /><br />
-<strong>And a cute lil&#8217; guy, to boot.</strong></p>
-<p style="text-align: left;">Gligar will repeatedly charge at an opponent at lightning speed from random angles, hitting them away in the process. Each time it charges, its attack increases in strength!</p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/gligar2.png" height="220px" /><br />
-<strong>A solid hit at first&#8230;</strong></p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/gligar3.png" height="220px" /><br />
-<strong>&#8230;but later on, a massive one!</strong></p>
-<p style="text-align: left;">If someone gets hit several times in a row, they&#8217;re likely to get KO&#8217;d. There is a catch, though: if Gligar&#8217;s attack is avoided, it stops the barrage entirely. Do whatever you can to make sure the opponent keeps getting hit!</p>
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4333</guid>
+		<description><![CDATA[Be ready to hop around the battlefield with Jigglypuff, the floaty Balloon Pokémon! She can send opponents to sleep, and her light weight makes her an agile opponent in the air. She also has some surprising trump cards to KO her opponents, notably her Rest attack! Jigglypuff&#8217;s Special Moves Standard Special Move Rollout Side Special [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/Jiggz.png" /></p>
+<p style="text-align: left;">Be ready to hop around the battlefield with Jigglypuff, the floaty Balloon Pokémon!</p>
+<p style="text-align: left;">She can send opponents to sleep, and her light weight makes her an agile opponent in the air. She also has some surprising trump cards to KO her opponents, notably her Rest attack!</p>
+<p style="text-align: left;"><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/J1.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/J4.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/J3.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/10/J2.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Jigglypuff&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>Rollout</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>Pound</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>Sing</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>Rest</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>Puff Up</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/jigglypuff-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
-		<title>Phase 8</title>
-		<link>http://ssfdojo.mcleodgaming.com/stages/phase-8-2</link>
-		<pubDate>Fri, 27 Dec 2013 07:48:14 +0000</pubDate>
+		<title>Zelda</title>
+		<link>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/zelda-2</link>
+		<comments>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/zelda-2#respond</comments>
+		<pubDate>Mon, 30 Sep 2013 07:00:14 +0000</pubDate>
 		<dc:creator><![CDATA[SSF2 DOJO Team]]></dc:creator>
-				<category><![CDATA[Stages]]></category>
+				<category><![CDATA[Veteran Fighters]]></category>
 
-		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4985</guid>
-		<description><![CDATA[Phase 8 continues the tradition of similar stages from the Metroid universe in previous Smash Bros. games. This can mean only one thing: Hot hot HOT! Find refuge in higher ground. Lava will periodically rise up from below and force you to get away or risk getting burned. However, that&#8217;s not the only thing that [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/phase8full.png" height="275px" /></p>
-<p style="text-align: left;">Phase 8 continues the tradition of similar stages from the Metroid universe in previous Smash Bros. games. This can mean only one thing:</p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/phase8-5.png" height="220px" /><br />
-<strong>Hot hot HOT!</strong></p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/phase8-6.png" height="220px" /><br />
-<strong>Find refuge in higher ground.</strong></p>
-<p style="text-align: left;">Lava will periodically rise up from below and force you to get away or risk getting burned. However, that&#8217;s not the only thing that you have to look out for.</p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/Phase8-3.png" height="220px" /><br />
-<strong>More lava!? Ouch!</strong></p>
-<p style="text-align: left;">A lava flow will create a wall down the middle of the screen! There&#8217;s only one way to get through.</p>
-<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/12/phase8-2.png" height="220px" /><br />
-<b>I hope this glass holds&#8230;</b></p>
-<p style="text-align: left;">Siding will appear between the two platforms in the center of the stage, allowing you to get past the lava. You can also use this as an early warning sign that the lava is coming, as it will appear several seconds beforehand.</p>
-<p style="text-align: left;">It would be easy to avoid all this lava if you were left to your own devices. Your opponents are probably going to do their best to hit you into it, though.</p>
-<p style="text-align: left;">
+		<guid isPermaLink="false">http://ssfdojo.mcleodgaming.com/?p=4273</guid>
+		<description><![CDATA[With effortless elegance and an impressive range of magic, Zelda, the Princess of Hyrule, warps into the fray! Her magic grants her immense versatility, as well as incredible power. Don&#8217;t get too close to her, lest you find yourself knocked out. Zelda&#8217;s Special Moves Standard Special Move Nayru&#8217;s Love Side Special Move Din&#8217;s Fire Up [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/09/Zelda.png" /></p>
+<p style="text-align: left;">With effortless elegance and an impressive range of magic, Zelda, the Princess of Hyrule, warps into the fray!</p>
+<p style="text-align: left;">Her magic grants her immense versatility, as well as incredible power. Don&#8217;t get too close to her, lest you find yourself knocked out.</p>
+<p style="text-align: left;"><img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/09/24.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/09/44.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/09/15.png" height="160px" /> <img alt="" src="http://ssfdojo.mcleodgaming.com/wp-content/uploads/2013/09/34.png" height="160px" /></p>
+<table class="SMoves">
+<tbody>
+<tr>
+<th class="SMoves_t" colspan="2">Zelda&#8217;s Special Moves</th>
+</tr>
+<tr>
+<th>Standard Special Move</th>
+<td>Nayru&#8217;s Love</td>
+</tr>
+<tr>
+<th>Side Special Move</th>
+<td>Din&#8217;s Fire</td>
+</tr>
+<tr>
+<th>Up Special Move</th>
+<td>Farore&#8217;s Wind</td>
+</tr>
+<tr>
+<th>Down Special Move</th>
+<td>Transform</td>
+</tr>
+<tr>
+<th>Final Smash</th>
+<td>Light Arrow</td>
+</tr>
+</tbody>
+</table>
+<p><!--:--></p>
 ]]></content:encoded>
-			</item>
+			<wfw:commentRss>http://ssfdojo.mcleodgaming.com/characters/veteran-fighters/zelda-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 	</channel>
 </rss>
