@@ -1,10 +1,15 @@
 <div class="search">
-    <form onsubmit="return false;">
+    <form onsubmit="return false;" style="float:left; position:relative; top:50px; left:530px; z-index:2000;">
+        <span class="ui-helper-hidden-accessible" role="status" aria-live="polite"></span>
         <input
-            type="text"
-            name="search"
-            placeholder="Search"
             id="quickSearch"
+            class="ui-autocomplete-input"
+            style='font-size: 20px; background: right center no-repeat rgba(0, 0, 0, 0.5); border: 1px solid black; color: white; width: 200px;'
+            type="text"
+            name="s"
+            placeholder="Search"
+            value=""
+            autocomplete="off"
         />
     </form>
 </div>
